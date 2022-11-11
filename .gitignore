@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/.vs/StartShipConqueror/v16
+/Debug
