@@ -142,11 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GamePlayState.cpp" />
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="StartShipConqueror.cpp" />
     <ClCompile Include="SystemManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GamePlayState.h" />
     <ClInclude Include="Image.h" />
     <ClInclude Include="SystemManager.h" />
   </ItemGroup>

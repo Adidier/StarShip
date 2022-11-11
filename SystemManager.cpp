@@ -55,7 +55,13 @@ int SystemManager::Input()
 
 void SystemManager::ClearScreen()
 {
+	SDL_SetRenderDrawColor(renderer, 0x00, 0x00, 0x0, 0xFF);
+	SDL_RenderClear(renderer);
+}
 
+void SystemManager::RenderScreen()
+{
+	SDL_RenderPresent(renderer);
 }
 
 void SystemManager::Draw(Image* img, int x, int y)

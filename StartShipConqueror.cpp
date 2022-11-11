@@ -1,24 +1,17 @@
 #include <iostream>
 #include "SystemManager.h"
-
-void Update()
-{
-}
-
-void Draw()
-{
-}
+#include "GamePlayState.h"
 
 int main(int args, char* argc[])
 {
-	bool exit = false;
-	SystemManager* sysManager = SystemManager::GetPtr();
-	sysManager->InitWindow();
-	while (exit == false) //gameloop
+	GamePlayState game;
+	game.Init();
+
+	while (true) //gameloop
 	{
-       exit = sysManager->Input();
-	   Update();
-	   Draw();		
+	   game.Input();
+	   game.Update();
+	   game.Draw();
 	}
 	return 0;
 }

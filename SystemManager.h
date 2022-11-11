@@ -13,6 +13,8 @@ public:
 	void Exit();
 	static SystemManager* GetPtr();
 	SDL_Renderer* GetRenderer();
+	void RenderScreen();
+
 private:
 	int screenWidth;
 	int screenHeight;
