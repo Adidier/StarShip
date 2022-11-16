@@ -2,17 +2,19 @@
 #include "SDL.h"
 #include <string>
 
-class Image
-{
-private:
-	int width;
-	int height;
-	SDL_Texture* tex;
-public:
-	void LoadImage(std::string path);
-	SDL_Texture* GetTexture();
+namespace System {
+	class Image
+	{
+	private:
+		int width;
+		int height;
+		SDL_Texture* tex;
+	public:
+		void LoadImage(std::string path);
+		SDL_Texture* GetTexture();
 
-	int GetWidth();
-    int GetHeight();
-};
+		int GetWidth();
+		int GetHeight();
+	};
+}
 

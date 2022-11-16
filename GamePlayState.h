@@ -1,16 +1,21 @@
 #pragma once
 #include "Image.h"
+#include "Enemy.h"
 #include "SystemManager.h"
+#include <list>
 
-class GamePlayState
-{
-private:
-	Image ship;
-	SystemManager* sysManager;
-public:
-	void Init();
-	void Update();
-	void Draw();
-	void Input();
+namespace Game {
+	class GamePlayState
+	{
+	private:
+		System::Image ship;
+		std::list<Game::Enemy*> listEnemy;
+		System::SystemManager* sysManager;
+	public:
+		void Init();
+		void Update();
+		void Draw();
+		void Input();
+	};
 };
 
