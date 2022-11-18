@@ -26,7 +26,7 @@ namespace System {
 	bool SystemManager::InitWindow()
 	{
 		screenWidth = 640;
-		screenHeight = 480;
+		screenHeight = 960;
 		if (SDL_Init(SDL_INIT_VIDEO) < 0)
 		{
 			return false;
@@ -42,7 +42,7 @@ namespace System {
 		return true;
 	}
 
-	int SystemManager::Input()
+	int SystemManager::Input(std::map<char,bool> &keys)
 	{
 		SDL_Event e;
 		while (SDL_PollEvent(&e))
@@ -51,6 +51,26 @@ namespace System {
 			{
 				return 1;
 			}
+		}
+
+		keys['w'] = keys['a'] = keys['s'] = keys['d'] = false;
+
+		const Uint8* keyboard = SDL_GetKeyboardState(NULL);
+		if (keyboard[SDL_SCANCODE_W])
+		{
+			keys['w'] = true;
+		}
+		if (keyboard[SDL_SCANCODE_A])
+		{
+			keys['a'] = true;
+		}
+		if (keyboard[SDL_SCANCODE_S])
+		{
+			keys['s'] = true;
+		}
+		if (keyboard[SDL_SCANCODE_D])
+		{
+			keys['d'] = true;
 		}
 		return 0;
 	}
@@ -80,5 +100,15 @@ namespace System {
 	void SystemManager::Exit()
 	{
 
+	}
+
+	int SystemManager::GetScreenWidth()
+	{
+		return screenWidth;
+	}
+
+	int SystemManager::GetScreenHeight()
+	{
+		return screenHeight;
 	}
 }

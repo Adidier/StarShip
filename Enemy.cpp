@@ -12,6 +12,11 @@ namespace Game {
 		munitions = 10;
 		sprite = new System::Image();
 		sprite->LoadImage("./Assets/enemy.png");
+		directionSide = 1;
+		if (rand() % 100 > 50)
+		{
+			directionSide = -1;
+		}
 	}
 
 	void Enemy::Draw()
@@ -22,7 +27,14 @@ namespace Game {
 
 	void Enemy::Update()
 	{
-		positionY += 0.1f;
+		auto sysManager = System::SystemManager::GetPtr();
+		if (positionY < sysManager->GetScreenHeight() >> 1) {
+			positionY += 0.1f;
+		}
+		else
+		{
+			positionX += 0.1f * directionSide;
+		}		
 	}
 
 	float Enemy::GetPositionX()

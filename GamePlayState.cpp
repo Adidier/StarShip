@@ -4,19 +4,17 @@ namespace Game {
 	{
 		sysManager = System::SystemManager::GetPtr();
 		sysManager->InitWindow();
-		ship.LoadImage("./Assets/ship.png");
-
-
+		player1.Init();		
 	}
 
 	void GamePlayState::Input()
 	{
-		sysManager->Input();
+		player1.Move();
 	}
 
 	void GamePlayState::Update()
 	{
-		if (rand() % 500 < 2) {
+		if (rand() % 1500 < 2) {
 			auto enemy = new Enemy();
 			enemy->Init();
 			listEnemy.push_back(enemy);
@@ -24,13 +22,12 @@ namespace Game {
 		for (auto enemy : listEnemy) {
 			enemy->Update();
 		}
-		//enemy1.Update();
 	}
 
 	void GamePlayState::Draw()
 	{
 		sysManager->ClearScreen();
-		sysManager->Draw(&ship, 0, 0);
+		player1.Draw();
 		for (auto enemy : listEnemy) {
 			enemy->Draw();
 		}

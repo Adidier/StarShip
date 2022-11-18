@@ -145,6 +145,7 @@
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="GamePlayState.cpp" />
     <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="StartShipConqueror.cpp" />
     <ClCompile Include="SystemManager.cpp" />
   </ItemGroup>
@@ -152,6 +153,7 @@
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="GamePlayState.h" />
     <ClInclude Include="Image.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="SystemManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,5 +1,6 @@
 #pragma once
 #include "image.h"
+
 namespace Game {
     class Enemy
     {
@@ -9,6 +10,7 @@ namespace Game {
         float positionY;
         int speed;
         int munitions;
+        int directionSide;
         System::Image* sprite;
     public:
         void Init();
