@@ -1,13 +1,12 @@
 #pragma once
 #include "image.h"
-
+#include "Vector2.h"
 namespace Game {
     class Enemy
     {
     private:
         int hits;
-        float positionX;
-        float positionY;
+        Vector2 position;
         int speed;
         int munitions;
         int directionSide;
@@ -16,8 +15,7 @@ namespace Game {
         void Init();
         void Draw();
         void Update();
-        float GetPositionX();
-        float GetPositionY();
+        Vector2 GetPosition();
     };
 }
 

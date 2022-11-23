@@ -2,10 +2,22 @@
 
 void Player::Init()
 {
-	positionX = 280;
-	positionY = 840;
+	position.x = 280;
+	position.y = 840;
 	velocity = 5;
 	energy = 100;
+	gunType = GunType::simple;
+	score = 0;
+	ship.LoadImage("./Assets/ship.png");
+	sysManager = SystemManager::GetPtr();
+}
+void Player::Init(float _positionX, float _positionY, 
+				float _velocity, int energy)
+{
+	position.x = _positionX;
+	position.y = _positionY;
+	velocity = _velocity;
+	this->energy = energy;
 	gunType = GunType::simple;
 	score = 0;
 	ship.LoadImage("./Assets/ship.png");
@@ -24,26 +36,26 @@ void Player::Move()
 
 	if (keys['w'])
 	{
-		positionY = positionY - 0.1*velocity;
+		position.y = position.y - 0.1*velocity;
 	}
 	else if (keys['s'])
 	{
-		positionY = positionY + 0.1 * velocity;
+		position.y = position.y + 0.1 * velocity;
 	}
 
 	if (keys['a'])
 	{
-		positionX = positionX - 0.1 * velocity;
+		position.x = position.x - 0.1 * velocity;
 	}
 	else if (keys['d'])
 	{
-		positionX = positionX + 0.1 * velocity;
+		position.x = position.x + 0.1 * velocity;
 	}
 }
 
 void Player::Draw()
 {
-	sysManager->Draw(&ship, positionX, positionY);
+	sysManager->Draw(&ship, position);
 }
 
 void Player::Update()

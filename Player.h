@@ -1,7 +1,7 @@
 #pragma once
 #include "Image.h"
 #include "SystemManager.h"
-
+#include "Vector2.h"
 using namespace System;
 
 enum GunType
@@ -14,8 +14,7 @@ enum GunType
 class Player
 {
 private:
-	float positionX;
-	float positionY;
+	Vector2 position;
 	float velocity;
 	int energy;
 	GunType gunType;
@@ -24,6 +23,7 @@ private:
 	SystemManager* sysManager;
 public:
 	void Init();
+	void Init(float positionX, float positionY, float velocity, int energy);
 	void Shoot();
 	void Move();
 	void Draw();

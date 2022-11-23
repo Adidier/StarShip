@@ -86,11 +86,11 @@ namespace System {
 		SDL_RenderPresent(renderer);
 	}
 
-	void SystemManager::Draw(Image* img, int x, int y)
+	void SystemManager::Draw(Image* img, Vector2 p)
 	{
 		SDL_Rect dst;
-		dst.x = x;
-		dst.y = y;
+		dst.x = p.x;
+		dst.y = p.y;
 		dst.w = img->GetWidth();
 		dst.h = img->GetHeight();
 

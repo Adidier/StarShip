@@ -6,8 +6,8 @@ namespace Game {
 	void Enemy::Init()
 	{
 		hits = 1;
-		positionX = rand() % 550;
-		positionY = 0;
+		position.x = rand() % 550;
+		position.y = 0;
 		speed = 5;
 		munitions = 10;
 		sprite = new System::Image();
@@ -22,28 +22,23 @@ namespace Game {
 	void Enemy::Draw()
 	{
 		auto sysManager = System::SystemManager::GetPtr();
-		sysManager->Draw(sprite, positionX, positionY);
+		sysManager->Draw(sprite, position);
 	}
 
 	void Enemy::Update()
 	{
 		auto sysManager = System::SystemManager::GetPtr();
-		if (positionY < sysManager->GetScreenHeight() >> 1) {
-			positionY += 0.1f;
+		if (position.y < sysManager->GetScreenHeight() >> 1) {
+			position.y = position.y +  0.1f;
 		}
 		else
 		{
-			positionX += 0.1f * directionSide;
+			position.x = position.x +0.1f * directionSide;
 		}		
 	}
 
-	float Enemy::GetPositionX()
+	Vector2 Enemy::GetPosition()
 	{
-		return positionX;
-	}
-
-	float Enemy::GetPositionY()
-	{
-		return positionY;
+		return position;
 	}
 }
