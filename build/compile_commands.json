@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/Bullet.cpp.o -c /Users/fear/dev2023/StarShip/game/src/Bullet.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/Bullet.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/Enemy.cpp.o -c /Users/fear/dev2023/StarShip/game/src/Enemy.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/Enemy.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/Enemy2.cpp.o -c /Users/fear/dev2023/StarShip/game/src/Enemy2.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/Enemy2.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/GameObject.cpp.o -c /Users/fear/dev2023/StarShip/game/src/GameObject.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/GameObject.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/GamePlayState.cpp.o -c /Users/fear/dev2023/StarShip/game/src/GamePlayState.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/GamePlayState.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/Image.cpp.o -c /Users/fear/dev2023/StarShip/game/src/Image.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/Image.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/MenuState.cpp.o -c /Users/fear/dev2023/StarShip/game/src/MenuState.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/MenuState.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/Player.cpp.o -c /Users/fear/dev2023/StarShip/game/src/Player.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/Player.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/StartShipConqueror.cpp.o -c /Users/fear/dev2023/StarShip/game/src/StartShipConqueror.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/StartShipConqueror.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/State.cpp.o -c /Users/fear/dev2023/StarShip/game/src/State.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/State.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/SystemManager.cpp.o -c /Users/fear/dev2023/StarShip/game/src/SystemManager.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/SystemManager.cpp"
+},
+{
+  "directory": "/Users/fear/dev2023/StarShip/build/game",
+  "command": "/usr/bin/clang++  -I/Users/fear/dev2023/StarShip/game/include -I/usr/local/include -I/usr/local/include/SDL2 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.5 -std=gnu++17 -o CMakeFiles/StarShip.dir/src/Vector2.cpp.o -c /Users/fear/dev2023/StarShip/game/src/Vector2.cpp",
+  "file": "/Users/fear/dev2023/StarShip/game/src/Vector2.cpp"
+}
+]

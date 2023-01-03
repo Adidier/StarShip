@@ -1,0 +1,23 @@
+
+
+include_directories("include/")
+
+include_directories("/usr/local/include")
+include_directories("/usr/local/include/SDL2/")
+
+
+set(CMAKE_BINARY_DIR "../")
+
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
+
+file(GLOB StarShip
+     "include/*.h"
+     "src/*.cpp"
+)
+
+
+link_directories("/usr/local/lib")
+add_executable(StarShip ${StarShip})    
+target_link_libraries(StarShip "SDL2" "SDL2_image")
+
+
