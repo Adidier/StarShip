@@ -25,8 +25,8 @@ namespace System {
 
 	bool SystemManager::InitWindow()
 	{
-		screenWidth = 640;
-		screenHeight = 700;
+		screenWidth = 800;
+		screenHeight = 480;
 		if (SDL_Init(SDL_INIT_VIDEO) < 0)
 		{
 			return false;
