@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev2023/StarShip
+# Install script for directory: F:/Dev2023/StarShip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Dev2023/StarShip/build/game/cmake_install.cmake")
+  include("F:/Dev2023/StarShip/build/game/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Dev2023/StarShip/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/Dev2023/StarShip/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

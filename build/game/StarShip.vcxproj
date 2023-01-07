@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{98F3945E-B2E5-336C-B069-BB8188D4BF62}</ProjectGuid>
+    <ProjectGuid>{92FC5AB9-8AF5-34B4-90F2-F41E866E4593}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>StarShip</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Dev2023\StarShip\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Dev2023\StarShip\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StarShip.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StarShip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Dev2023\StarShip\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Dev2023\StarShip\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StarShip.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StarShip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Dev2023\StarShip\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Dev2023\StarShip\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StarShip.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StarShip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Dev2023\StarShip\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Dev2023\StarShip\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StarShip.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StarShip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -99,15 +99,15 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,12 +116,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>/usr/local/lib;/usr/local/lib/$(Configuration);D:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64;D:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64/$(Configuration);D:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64;D:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>/usr/local/lib;/usr/local/lib/$(Configuration);F:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64;F:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64/$(Configuration);F:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64;F:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev2023/StarShip/build/Debug/StarShip.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev2023/StarShip/build/Debug/StarShip.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/Dev2023/StarShip/build/Debug/StarShip.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Dev2023/StarShip/build/Debug/StarShip.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -141,17 +141,17 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,12 +160,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>/usr/local/lib;/usr/local/lib/$(Configuration);D:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64;D:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64/$(Configuration);D:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64;D:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>/usr/local/lib;/usr/local/lib/$(Configuration);F:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64;F:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64/$(Configuration);F:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64;F:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev2023/StarShip/build/Release/StarShip.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev2023/StarShip/build/Release/StarShip.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/Dev2023/StarShip/build/Release/StarShip.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Dev2023/StarShip/build/Release/StarShip.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -185,17 +185,17 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -204,12 +204,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>/usr/local/lib;/usr/local/lib/$(Configuration);D:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64;D:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64/$(Configuration);D:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64;D:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>/usr/local/lib;/usr/local/lib/$(Configuration);F:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64;F:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64/$(Configuration);F:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64;F:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev2023/StarShip/build/MinSizeRel/StarShip.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev2023/StarShip/build/MinSizeRel/StarShip.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/Dev2023/StarShip/build/MinSizeRel/StarShip.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Dev2023/StarShip/build/MinSizeRel/StarShip.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -230,15 +230,15 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;D:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev2023\StarShip\game\include;\usr\local\include;\usr\local\include\SDL2;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2-2.24.1\include;F:\Dev2023\StarShip\game\..\ExternalLibs\SDL2_image-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -247,12 +247,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2main.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>/usr/local/lib;/usr/local/lib/$(Configuration);D:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64;D:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64/$(Configuration);D:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64;D:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>/usr/local/lib;/usr/local/lib/$(Configuration);F:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64;F:/Dev2023/StarShip/game/../ExternalLibs/SDL2-2.24.1/lib/x64/$(Configuration);F:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64;F:/Dev2023/StarShip/game/../ExternalLibs/SDL2_image-2.6.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev2023/StarShip/build/RelWithDebInfo/StarShip.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev2023/StarShip/build/RelWithDebInfo/StarShip.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/Dev2023/StarShip/build/RelWithDebInfo/StarShip.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Dev2023/StarShip/build/RelWithDebInfo/StarShip.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,11 +260,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev2023\StarShip\game\CMakelists.txt">
-      <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Dev2023/StarShip/game/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\Dev2023\StarShip\game\CMakelists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Dev2023/StarShip/game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Dev2023/StarShip -BD:/Dev2023/StarShip/build --check-stamp-file D:/Dev2023/StarShip/build/game/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/Dev2023/StarShip -BF:/Dev2023/StarShip/build --check-stamp-file F:/Dev2023/StarShip/build/game/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,11 +273,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Dev2023\StarShip\build\game\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Dev2023\StarShip\build\game\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Dev2023/StarShip/game/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Dev2023/StarShip/game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Dev2023/StarShip -BD:/Dev2023/StarShip/build --check-stamp-file D:/Dev2023/StarShip/build/game/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/Dev2023/StarShip -BF:/Dev2023/StarShip/build --check-stamp-file F:/Dev2023/StarShip/build/game/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -286,11 +286,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Dev2023\StarShip\build\game\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Dev2023\StarShip\build\game\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Dev2023/StarShip/game/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Dev2023/StarShip/game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Dev2023/StarShip -BD:/Dev2023/StarShip/build --check-stamp-file D:/Dev2023/StarShip/build/game/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/Dev2023/StarShip -BF:/Dev2023/StarShip/build --check-stamp-file F:/Dev2023/StarShip/build/game/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -299,11 +299,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Dev2023\StarShip\build\game\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Dev2023\StarShip\build\game\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Dev2023/StarShip/game/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Dev2023/StarShip/game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Dev2023/StarShip -BD:/Dev2023/StarShip/build --check-stamp-file D:/Dev2023/StarShip/build/game/CMakeFiles/generate.stamp
+"F:\Program Files\CMake\bin\cmake.exe" -SF:/Dev2023/StarShip -BF:/Dev2023/StarShip/build --check-stamp-file F:/Dev2023/StarShip/build/game/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,38 +312,38 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Dev2023\StarShip\build\game\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Dev2023\StarShip\build\game\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Bullet.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Enemy.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Enemy2.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\GameObject.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\GamePlayState.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Image.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\MenuState.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Player.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\State.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\SystemManager.h" />
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Vector2.h" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Bullet.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Enemy.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Enemy2.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\GameObject.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\GamePlayState.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Image.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\MenuState.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Player.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\StartShipConqueror.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\State.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\SystemManager.cpp" />
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Vector2.cpp" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Bullet.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Enemy.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Enemy2.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\GameObject.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\GamePlayState.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Image.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\MenuState.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Player.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\State.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\SystemManager.h" />
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Vector2.h" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Bullet.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Enemy.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Enemy2.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\GameObject.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\GamePlayState.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Image.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\MenuState.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Player.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\StartShipConqueror.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\State.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\SystemManager.cpp" />
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Dev2023\StarShip\build\ZERO_CHECK.vcxproj">
-      <Project>{FD094195-C328-343D-AA60-FBD860A9A1FE}</Project>
+    <ProjectReference Include="F:\Dev2023\StarShip\build\ZERO_CHECK.vcxproj">
+      <Project>{0A62CE9C-A03E-38B6-B292-540AF46502E4}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

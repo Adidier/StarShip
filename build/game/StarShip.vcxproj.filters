@@ -1,87 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Bullet.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Enemy.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Enemy2.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Enemy2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\GameObject.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\GameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\GamePlayState.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\GamePlayState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Image.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\MenuState.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\MenuState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Player.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\StartShipConqueror.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\StartShipConqueror.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\State.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\State.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\SystemManager.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\SystemManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev2023\StarShip\game\src\Vector2.cpp">
+    <ClCompile Include="F:\Dev2023\StarShip\game\src\Vector2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Bullet.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Bullet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Enemy.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Enemy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Enemy2.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Enemy2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\GameObject.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\GamePlayState.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\GamePlayState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Image.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\MenuState.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\MenuState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Player.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\State.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\State.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\SystemManager.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\SystemManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev2023\StarShip\game\include\Vector2.h">
+    <ClInclude Include="F:\Dev2023\StarShip\game\include\Vector2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev2023\StarShip\game\CMakelists.txt" />
+    <CustomBuild Include="F:\Dev2023\StarShip\game\CMakelists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{1C1B83ED-F2B3-3C8C-8EBA-5117C03D20C8}</UniqueIdentifier>
+      <UniqueIdentifier>{D073DD64-B39E-34EC-8680-32B559E17D66}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3BB0F104-216A-30A5-AE8C-7B84CCD0EF45}</UniqueIdentifier>
+      <UniqueIdentifier>{414DFE46-749F-3758-957C-1B430C9E0C77}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

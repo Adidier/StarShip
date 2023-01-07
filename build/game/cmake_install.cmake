@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev2023/StarShip/game
+# Install script for directory: F:/Dev2023/StarShip/game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
