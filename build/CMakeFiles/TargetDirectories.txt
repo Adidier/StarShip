@@ -1,5 +1,3 @@
-/Users/fear/dev2023/StarShip/build/CMakeFiles/edit_cache.dir
-/Users/fear/dev2023/StarShip/build/CMakeFiles/rebuild_cache.dir
-/Users/fear/dev2023/StarShip/build/game/CMakeFiles/StarShip.dir
-/Users/fear/dev2023/StarShip/build/game/CMakeFiles/edit_cache.dir
-/Users/fear/dev2023/StarShip/build/game/CMakeFiles/rebuild_cache.dir
+D:/Dev2023/StarShip/build/CMakeFiles/ALL_BUILD.dir
+D:/Dev2023/StarShip/build/CMakeFiles/ZERO_CHECK.dir
+D:/Dev2023/StarShip/build/game/CMakeFiles/StarShip.dir

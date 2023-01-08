@@ -1,0 +1,10 @@
+^D:\DEV2023\STARSHIP\BUILD\CMAKEFILES\DC039B3A4766FFF3B86CD174B7397110\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Dev2023/StarShip -BD:/Dev2023/StarShip/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Dev2023/StarShip/build/PlayEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

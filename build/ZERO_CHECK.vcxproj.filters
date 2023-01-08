@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Dev2023\StarShip\build\CMakeFiles\dc039b3a4766fff3b86cd174b7397110\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CDEE60C0-671D-3D08-A2B7-296E7F50B904}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

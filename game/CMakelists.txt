@@ -5,6 +5,9 @@ include_directories("include/")
 include_directories("/usr/local/include")
 include_directories("/usr/local/include/SDL2/")
 
+include_directories("../ExternalLibs/SDL2-2.24.1/include")
+include_directories("../ExternalLibs/SDL2_image-2.6.2/include")
+
 
 set(CMAKE_BINARY_DIR "../")
 
@@ -17,7 +20,12 @@ file(GLOB StarShip
 
 
 link_directories("/usr/local/lib")
+
+link_directories("../ExternalLibs/SDL2-2.24.1/lib/x64")
+link_directories("../ExternalLibs/SDL2_image-2.6.2/lib/x64")
+
+
 add_executable(StarShip ${StarShip})    
-target_link_libraries(StarShip "SDL2" "SDL2_image")
+target_link_libraries(StarShip "SDL2" "SDL2_image" "SDL2main")
 
 
